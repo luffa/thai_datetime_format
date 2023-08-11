@@ -1,8 +1,8 @@
 import 'package:intl/intl.dart';
 
-extension BuddhistCalendarFormatter on DateFormat {
-  String formatInBuddhistCalendarThai(DateTime dateTime) {
-    if (this.pattern.contains('y')) {
+extension ThaiCalendarFormatter on DateFormat {
+  String formatInThaiCalendar(DateTime dateTime) {
+    if (this.pattern!.contains('y')) {
       var buddhistDateTime = DateTime(
           dateTime.year,
           dateTime.month,

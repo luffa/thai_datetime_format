@@ -18,8 +18,8 @@ Install package via `pubspec.yaml`
 
 ```yaml
 dependencies:
-  intl: ^0.16.1  
-  buddhist_datetime_dateformat: ^1.0.1
+  intl: ^0.18.1  
+  thai_datetime_format: ^1.0.0
 ```
 
 ## 2. Initialization

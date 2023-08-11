@@ -1,5 +1,5 @@
-extension BuddhistCalendarDateTime on DateTime {
-  int get yearInBuddhistCalendar {
+extension ThaiCalendarDateTime on DateTime {
+  int get yearInThaiCalendar {
     return this.year + 543;
   }
 }
